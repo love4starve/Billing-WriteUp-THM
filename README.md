@@ -89,7 +89,7 @@ User asterisk may run the following commands on ip-**.**.**.**:
 
 The `NOPASSWD` sudo permission was present for the `fail2ban-client` binary.
 
-What is [Fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page)?
+What is [Fail2ban](https://linux.die.net/man/8/fail2ban)?
 
 Fail2Ban scans log files like `/var/log/auth.log` and bans IP addresses conducting too many failed login attempts, allowing custom scripts to run when an event happens.
 
