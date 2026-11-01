@@ -62,7 +62,7 @@ protected            (Status: 403) [Size: 278]
 
 After exploring the directories, we excluded everything except for `lib/`, which contains the vulnerable files. After that, we used the common file located and named in `/mbilling/README.md` to identify the MagnusBilling version, allowing us to search online and find `CVE-2023-30258`.
 
-![[Pasted image 20260201130410.png]]
+![screenshot](billing.png)
 ## Exploitation
 
 To make the exploitation process easier, we searched for `CVE-2023-30258` on Metasploit, found it, set the necessary options, and then finally exploited it with a payload containing a Meterpreter reverse shell so we could execute commands arbitrarily.
