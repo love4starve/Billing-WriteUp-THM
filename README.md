@@ -1,4 +1,4 @@
-# [Billing](https://tryhackme.com/room/billing)
+# Billing
 Some mistakes can be costly.
 
 ## Recon
@@ -134,7 +134,6 @@ $ cat /root/root.txt
 THM{REDACTED}
 ```
 
-We finally finished this box! Some mistakes can really be costly.
 
 Room link: [TryHackMe Billing](https://tryhackme.com/r/room/billing)
 
